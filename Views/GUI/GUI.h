@@ -5,6 +5,8 @@
 #ifndef DANGEROUSOBJECTSEARCHER_GUI_H
 #define DANGEROUSOBJECTSEARCHER_GUI_H
 #include <QtWidgets>
+#include "Views/ClickableLabel/ClickableLabel.h"
+#include "Views/TableWidget/TableWidget.h"
 
 
 class GUI : public QWidget
@@ -17,9 +19,11 @@ public slots:
     void buttonPushed();
 
 private:
-    QLabel *imageLabel;
+    ClickableLabel *imageLabel;
+    TableWidget *table;
     void initColor();
-
+    void initGUI();
+    void setImage(QString imagePath);
 
 };
 

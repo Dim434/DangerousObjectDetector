@@ -1,0 +1,5 @@
+opencv_traincascade -data B0007 -vec B0007.vec -bg B0007bad.dat -numStages 16 -minhitrate 0.999 -maxFalseAlarmRate 0.4 -numPos 15 -numNeg 818 -w 1 -h 1 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024
+opencv_traincascade -data B0049 -vec B0049.vec -bg B0049bad.dat -numStages 16 -minhitrate 0.999 -maxFalseAlarmRate 0.4 -numPos 140 -numNeg 678 -w 1 -h 1 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024
+opencv_traincascade -data B0051 -vec B0051.vec -bg B0051bad.dat -numStages 16 -minhitrate 0.999 -maxFalseAlarmRate 0.4 -numPos 66 -numNeg 762 -w 1 -h 1 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024
+opencv_traincascade -data B0052 -vec B0052.vec -bg B0052bad.dat -numStages 16 -minhitrate 0.999 -maxFalseAlarmRate 0.4 -numPos 95 -numNeg 723 -w 1 -h 1 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024
+opencv_traincascade -data B0076 -vec B0076.vec -bg B0076bad.dat -numStages 16 -minhitrate 0.999 -maxFalseAlarmRate 0.4 -numPos 431 -numNeg 377 -w 1 -h 1 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024

@@ -9,7 +9,7 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS} -mmacosx-
 find_package(OpenCV REQUIRED)
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
-add_executable(DangerousObjectSearcher main.cpp Views/GUI/GUI.cpp Views/GUI/GUI.h Views/ClickableLabel/ClickableLabel.cpp Views/ClickableLabel/ClickableLabel.h)
+add_executable(DangerousObjectSearcher main.cpp Views/GUI/GUI.cpp Views/GUI/GUI.h Views/ClickableLabel/ClickableLabel.cpp Views/ClickableLabel/ClickableLabel.h Views/TableWidget/TableWidget.cpp Views/TableWidget/TableWidget.h) 
 include_directories(${OpenCV_INCLUDE_DIRS})
 target_link_libraries(DangerousObjectSearcher ${OpenCV_LIBS})
 target_link_libraries(DangerousObjectSearcher Qt6::Widgets)
