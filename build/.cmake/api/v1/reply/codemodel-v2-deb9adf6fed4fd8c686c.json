@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DangerousObjectSearcher",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DangerousObjectSearcher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DangerousObjectSearcher-Debug-78e5de174e24c5ed7725.json",
+					"name" : "DangerousObjectSearcher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DangerousObjectSearcher_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DangerousObjectSearcher_autogen-Debug-fc20c481009f8eabcc96.json",
+					"name" : "DangerousObjectSearcher_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parallels/DangerousObjectDetector/build",
+		"source" : "/home/parallels/DangerousObjectDetector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

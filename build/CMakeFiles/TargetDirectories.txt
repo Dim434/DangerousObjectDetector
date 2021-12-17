@@ -1,0 +1,4 @@
+/home/parallels/DangerousObjectDetector/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/DangerousObjectDetector/build/CMakeFiles/edit_cache.dir
+/home/parallels/DangerousObjectDetector/build/CMakeFiles/DangerousObjectSearcher.dir
+/home/parallels/DangerousObjectDetector/build/CMakeFiles/DangerousObjectSearcher_autogen.dir

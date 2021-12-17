@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/parallels/DangerousObjectDetector/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parallels/DangerousObjectDetector/build -I/home/parallels/DangerousObjectDetector -I/home/parallels/DangerousObjectDetector/build/DangerousObjectSearcher_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++    -g   -fPIC -std=gnu++17 -o CMakeFiles/DangerousObjectSearcher.dir/DangerousObjectSearcher_autogen/mocs_compilation.cpp.o -c /home/parallels/DangerousObjectDetector/build/DangerousObjectSearcher_autogen/mocs_compilation.cpp",
+  "file": "/home/parallels/DangerousObjectDetector/build/DangerousObjectSearcher_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/parallels/DangerousObjectDetector/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parallels/DangerousObjectDetector/build -I/home/parallels/DangerousObjectDetector -I/home/parallels/DangerousObjectDetector/build/DangerousObjectSearcher_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++    -g   -fPIC -std=gnu++17 -o CMakeFiles/DangerousObjectSearcher.dir/main.cpp.o -c /home/parallels/DangerousObjectDetector/main.cpp",
+  "file": "/home/parallels/DangerousObjectDetector/main.cpp"
+},
+{
+  "directory": "/home/parallels/DangerousObjectDetector/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parallels/DangerousObjectDetector/build -I/home/parallels/DangerousObjectDetector -I/home/parallels/DangerousObjectDetector/build/DangerousObjectSearcher_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++    -g   -fPIC -std=gnu++17 -o CMakeFiles/DangerousObjectSearcher.dir/Views/GUI/GUI.cpp.o -c /home/parallels/DangerousObjectDetector/Views/GUI/GUI.cpp",
+  "file": "/home/parallels/DangerousObjectDetector/Views/GUI/GUI.cpp"
+},
+{
+  "directory": "/home/parallels/DangerousObjectDetector/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parallels/DangerousObjectDetector/build -I/home/parallels/DangerousObjectDetector -I/home/parallels/DangerousObjectDetector/build/DangerousObjectSearcher_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++    -g   -fPIC -std=gnu++17 -o CMakeFiles/DangerousObjectSearcher.dir/Views/ClickableLabel/ClickableLabel.cpp.o -c /home/parallels/DangerousObjectDetector/Views/ClickableLabel/ClickableLabel.cpp",
+  "file": "/home/parallels/DangerousObjectDetector/Views/ClickableLabel/ClickableLabel.cpp"
+},
+{
+  "directory": "/home/parallels/DangerousObjectDetector/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parallels/DangerousObjectDetector/build -I/home/parallels/DangerousObjectDetector -I/home/parallels/DangerousObjectDetector/build/DangerousObjectSearcher_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++    -g   -fPIC -std=gnu++17 -o CMakeFiles/DangerousObjectSearcher.dir/Views/TableWidget/TableWidget.cpp.o -c /home/parallels/DangerousObjectDetector/Views/TableWidget/TableWidget.cpp",
+  "file": "/home/parallels/DangerousObjectDetector/Views/TableWidget/TableWidget.cpp"
+}
+]
