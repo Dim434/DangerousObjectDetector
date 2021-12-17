@@ -8,7 +8,10 @@ class TableWidget: public QWidget {
 
 public:
     explicit TableWidget(QWidget *parent = nullptr);
-    void operator+= (String object);
+    void operator+= (QString object);
+    void clear();
+private:
+    QHBoxLayout layout;
 
 };
 

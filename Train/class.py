@@ -14,7 +14,7 @@ def main():
                 if file.startswith(i) and file.endswith('.png'):
                     img = Image.open(file)
                     width, heigth = img.size
-                    good.write(f'{file} 1 1 1 {width} {heigth}\n')
+                    good.write(f'{file} 1 0 0 {width} {heigth}\n')
                 else:
                     bad.write(f"{file}\n")
             good.close()

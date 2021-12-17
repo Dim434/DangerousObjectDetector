@@ -1,15 +1,16 @@
 cmake_minimum_required(VERSION 3.13)
 project(DangerousObjectSearcher)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
-set(CMAKE_CXX_STANDARD 14)
-
-SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS} -mmacosx-version-min=12.0")
+SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
 find_package(OpenCV REQUIRED)
-find_package(Qt6 COMPONENTS Widgets REQUIRED)
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+FIND_PACKAGE(Boost 1.71.0 COMPONENTS program_options REQUIRED )
 
 add_executable(DangerousObjectSearcher main.cpp Views/GUI/GUI.cpp Views/GUI/GUI.h Views/ClickableLabel/ClickableLabel.cpp Views/ClickableLabel/ClickableLabel.h Views/TableWidget/TableWidget.cpp Views/TableWidget/TableWidget.h) 
 include_directories(${OpenCV_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES( ${Boost_INCLUDE_DIR} )
 target_link_libraries(DangerousObjectSearcher ${OpenCV_LIBS})
-target_link_libraries(DangerousObjectSearcher Qt6::Widgets)
+target_link_libraries(DangerousObjectSearcher Qt5::Widgets)
+TARGET_LINK_LIBRARIES(DangerousObjectSearcher ${Boost_LIBRARIES})
